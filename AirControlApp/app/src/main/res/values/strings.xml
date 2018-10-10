@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AirControl App</string>
+
+    <string name="mgs_bienvenida">BIENVENIDO</string>
+
+    <string name="btn_registro">IR A REGISTRO</string>
+
+    <string name="btn_herramientas">IR A HERRAMIENTAS</string>
 </resources>
