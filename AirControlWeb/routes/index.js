@@ -3,7 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'AirPal' });
+  //if(req.session.nombre){
+     res.render('index', {nombre: req.session.nombre});
+  /*}else{
+     res.redirect('/login');
+  }*/
 });
 
 module.exports = router;

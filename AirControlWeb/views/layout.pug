@@ -5,11 +5,12 @@ mixin listnav(text, href)
 
 
 -
-  var nav_content = [{text: 'Inicio', href: '/'}, 
+  var nav_content = [{text: 'Inicio', href: '/index'}, 
                     {text: 'Usuarios', href: '/all-users'},
                     {text: 'Estadísticas', href: '/stats'},
-                    {text: 'Cerrar sesión', href: '/logout'}];
-                      
+                    {text: 'Cerrar sesión', href: '/logout'},
+                    {text: 'API', href: '/api'}];
+
 html
   head
     title= title
